@@ -19,7 +19,7 @@ anything or run anything to use it:
 
 [`DATASET.md`](DATASET.md) documents every column, the time convention, how gaps
 are handled, and what to watch out for before modelling. **Read it before using
-the data** — the time handling and the imputation rules are not obvious from the
+the data** sincethe time handling and the imputation rules are not obvious from the
 files alone.
 
 ## Quickstart
@@ -135,19 +135,3 @@ The output should match the CSVs already here, byte for byte.
 
 Python 3.10 or later, and four packages pinned in `requirements.txt`: `pandas`,
 `numpy`, `requests`, `pytz`.
-
-## Licence
-
-The code is MIT licensed — see [`LICENSE`](LICENSE).
-
-The data is derived from OMIE and ENTSO-E publications and remains subject to
-their terms. If you redistribute the CSVs, check those first.
-
-## Citation
-
-This dataset was built for an MSc thesis benchmarking day-ahead electricity
-price forecasting models on the Iberian market. If you use it, please cite the
-thesis:
-
-> Tatto, C. H. (2026). *Day-ahead Electricity Price Forecasting Using Deep
-> Neural Networks: A Benchmarking Study for MIBEL (2002–2025).* MSc thesis.
