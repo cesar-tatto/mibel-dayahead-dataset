@@ -1,0 +1,35 @@
+# ---------------------------------------------------------------------------
+# Raw source archives (~3.4 GB). The folder scaffold and its README are kept
+# so there is somewhere obvious to put the files; the files themselves are not.
+# See dataset/downloads/README.md.
+# ---------------------------------------------------------------------------
+dataset/downloads/*
+!dataset/downloads/README.md
+!dataset/downloads/omie/
+!dataset/downloads/entsoe/
+
+dataset/downloads/omie/*
+!dataset/downloads/omie/.gitkeep
+
+dataset/downloads/entsoe/*
+!dataset/downloads/entsoe/DayAheadTotalLoadForecast_6.1.B_r3/
+!dataset/downloads/entsoe/GenerationForecastsForWindAndSolar_14.1.D_r3/
+
+dataset/downloads/entsoe/DayAheadTotalLoadForecast_6.1.B_r3/*
+!dataset/downloads/entsoe/DayAheadTotalLoadForecast_6.1.B_r3/.gitkeep
+dataset/downloads/entsoe/GenerationForecastsForWindAndSolar_14.1.D_r3/*
+!dataset/downloads/entsoe/GenerationForecastsForWindAndSolar_14.1.D_r3/.gitkeep
+
+# Pipeline audit logs, regenerated on every run
+dataset/audit/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS and tooling
+.DS_Store
+.vscode/

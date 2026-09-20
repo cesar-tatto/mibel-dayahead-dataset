@@ -1,0 +1,5 @@
+# Pinned to the versions the dataset was built with.
+pandas==2.3.3
+numpy==2.2.6
+requests==2.34.2
+pytz==2026.3.post1
